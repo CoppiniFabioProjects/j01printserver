@@ -1,0 +1,11 @@
+--2025-06-27 16:27:21--  https://download.brother.com/pub/com/linux/linux/infs/DCPT310
+Resolving download.brother.com (download.brother.com)... 104.83.85.112
+Connecting to download.brother.com (download.brother.com)|104.83.85.112|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 226 [text/plain]
+Saving to: ‘/tmp/brprinter-installer_ylGq3z/DCPT310’
+
+     0K                                                       100% 38.5M=0s
+
+2025-06-27 16:27:21 (38.5 MB/s) - ‘/tmp/brprinter-installer_ylGq3z/DCPT310’ saved [226/226]
+

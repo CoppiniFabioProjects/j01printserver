@@ -1,0 +1,68 @@
+HL-L2865DW — Monocromatico, 34 ppm, duplex, Ethernet e Wi‑Fi 5 GHz; compatta per uffici piccoli/medi
+HL-L2355DW — Monocromatico, 30 ppm, duplex, Wi-Fi, compatta
+HL-L2350DW — Monocromatico, 30 ppm, Wi-Fi, duplex automatico, ideale per piccoli uffici
+HL-L3270CDW — Colori, 25 ppm, duplex, Wi-Fi, Ethernet
+HL-L5100DN — Monocromatico, 40 ppm, duplex, Ethernet, alta capacità carta (cassetto 250+500 fogli nel DNT)
+HL-L5100DNT — Monocromatico, 40 ppm, duplex, Ethernet, alta capacità carta (cassetto 250+500 fogli nel DNT)
+HL-L5200DW — Monocromatico, 40 ppm, duplex, Wi-Fi/Ethernet, alta capacità carta
+HL-L6200DW — Monocromatico, 48 ppm, duplex, Wi-Fi/Ethernet, cassetto carta 520 fogli (doppio cassetto nel DWT)
+HL-L6200DWT — Monocromatico, 48 ppm, duplex, Wi-Fi/Ethernet, cassetto carta 520 fogli (doppio cassetto nel DWT)
+HL-L6400DW — Monocromatico, 52 ppm, duplex, Wi-Fi, doppio cassetto carta opzionale
+HL-L6415DN — Monocromatico, 52 ppm, duplex, Wi-Fi, doppio cassetto carta opzionale
+HL-L6410DN — Monocromatico, 50 ppm, duplex, Ethernet/5 GHz Wi-Fi, cassetto da 520 fogli
+HL-L8260CDW — Colori, 31 ppm, duplex, Wi-Fi, NFC, adatta a uffici medi
+HL-L8360CDW — Colori, 31-33 ppm, duplex, Wi-Fi/Ethernet, NFC, touchscreen, doppio cassetto carta (nel WT)
+HL-L8360CDWT — Colori, 31-33 ppm, duplex, Wi-Fi/Ethernet, NFC, touchscreen, doppio cassetto carta (nel WT)
+HL-L9200CDW — Colori, 31-33 ppm, duplex, Wi-Fi/Ethernet, NFC, touchscreen, doppio cassetto carta (nel WT)
+HL-L9310CDW — Colori, 33 ppm, duplex, Wi-Fi/Ethernet, alta capacità carta, doppio cassetto carta (nel WT)
+HL-L9310CDWT — Colori, 33 ppm, duplex, Wi-Fi/Ethernet, alta capacità carta, doppio cassetto carta (nel WT)
+HL-L9430CDN — Colori, 40 ppm, duplex, touchscreen 8,8 cm, 520 fogli
+HL-L9470CDN — Colori, 40 ppm, duplex, touchscreen 8,8 cm, 520 fogli
+
+MFC-L2710DN — Monocromatico, 30 ppm, duplex, ADF 50 fogli, rete Ethernet / Wi-Fi
+MFC-L2710DW — Monocromatico, 30 ppm, duplex, ADF 50 fogli, rete Ethernet / Wi-Fi
+MFC-L2750DW — Monocromatico, 36 ppm, duplex, ADF 50 fogli, Wi-Fi
+MFC-L5700DN — Monocromatico, 40 ppm, duplex, ADF 50 fogli, rete cablata / Wi-Fi Ethernet
+MFC-L5700DW — Monocromatico, 40 ppm, duplex, ADF 50 fogli, rete cablata / Wi-Fi Ethernet
+MFC-L5790DW — Monocromatico, 50 ppm, duplex, ADF 50, Wi-Fi 5 GHz
+MFC-L5900DN — Monocromatico, 40 ppm, duplex, ADF 50 fogli, Ethernet / Wi-Fi, touchscreen (DW)
+MFC-L5900DW — Monocromatico, 40 ppm, duplex, ADF 50 fogli, Ethernet / Wi-Fi, touchscreen (DW)
+MFC-L5710DN — Monocromatico, 50 ppm, duplex, ADF 50 fogli, Ethernet / Wi‑Fi 5 GHz
+MFC-L5710DW — Monocromatico, 50 ppm, duplex, ADF 50 fogli, Ethernet / Wi‑Fi 5 GHz
+MFC-L5750DW — Monocromatico, 40 ppm, duplex, touchscreen 12,3 cm, ADF, rete cablata/Wi‑Fi
+MFC-L6700DW — Monocromatica serie workgroup, 50 ppm, ADF, duplex, rete e Wi‑Fi
+MFC-L6710DW — Monocromatica serie workgroup, 50 ppm, ADF, duplex, rete e Wi‑Fi
+MFC-L6720DW — Monocromatica serie workgroup, 50 ppm, ADF, duplex, rete e Wi‑Fi
+MFC-L6750DW — Monocromatica serie workgroup, 50 ppm, ADF, duplex, rete e Wi‑Fi
+MFC-L6800DWT — Monocromatico, 46 ppm, duplex, ADF 80 fogli, touchscreen 12,3 cm, doppio cassetto 520+520
+MFC-L6900DW — Monocromatico, 50 ppm, duplex, ADF 80 fogli, touchscreen 12,3 cm, doppio cassetto, capacità espandibile nel DWT
+MFC-L6900DWT — Monocromatico, 50 ppm, duplex, ADF 80 fogli, touchscreen 12,3 cm, doppio cassetto, capacità espandibile nel DWT
+MFC-L6910DN — Monocromatico, 50 ppm, duplex, ADF 80 fogli, Ethernet/Wi‑Fi (opzionale)
+MFC-L8390CDW — Colori LED, 31 ppm, duplex, ADF 50, touchscreen 8,8 cm, Ethernet/Wi‑Fi 5 GHz, NFC
+MFC-L8690CDW — Colori LED, 31 ppm, duplex, ADF 50, touchscreen 9,3 cm, rete cablata/Wi‑Fi/NFC
+MFC-L8900CDW — Colori LED, 31 ppm, duplex, ADF 70, touchscreen 12,6 cm, Ethernet/Wi‑Fi/NFC
+MFC-L9570CDW — Colori LED, 31-33 ppm, duplex, ADF 80, touchscreen 17,6 cm, rete/Wi‑Fi/NFC, doppio cassetto nel WT/S/T
+MFC-L9570CDWT — Colori LED, 31-33 ppm, duplex, ADF 80, touchscreen 17,6 cm, rete/Wi‑Fi/NFC, doppio cassetto nel WT/S/T
+MFC-L9570CDWS — Colori LED, 31-33 ppm, duplex, ADF 80, touchscreen 17,6 cm, rete/Wi‑Fi/NFC, doppio cassetto nel WT/S/T 
+MFC-L9570CDST — Colori LED, 31-33 ppm, duplex, ADF 80, touchscreen 17,6 cm, rete/Wi‑Fi/NFC, doppio cassetto nel WT/S/T
+MFC-T4500DW — Ink-tank colori, A4, Wi-Fi, bassi costi
+MFC-T800W — Ink-tank colori, Wi-Fi, touchscreen, ADF
+MFC-T910DW — Ink-tank colori, duplex, Wi-Fi, touchscreen, ADF 20 fogli
+MFC-T920DW — Ink-tank colori, A4, duplex, Wi-Fi, ADF 20 fogli
+
+DCP-L3551CDW — Colori LED, 18 ppm, duplex, ADF, Wi‑Fi
+DCP-J1100DW — Inkjet colori, Wi-Fi, stampa fronte/retro, ideale per piccoli uffici
+DCP-J562DW — Inkjet colori A4, Wi-Fi, stampa fronte/retro manuale
+DCP-J774DW — Inkjet colori A4, Wi-Fi, stampa fronte/retro automatica
+DCP-J1200W — Inkjet colori, Wi-Fi, stampa di qualità fotografica
+DCP-J6957DW — Inkjet A3, 30 ppm, touchscreen, Wi‑Fi, cassetto 850 fogli
+DCP-T310 — Ink-tank colori, bassi costi per pagina, cablata USB / Wi-Fi
+DCP-T310W — Ink-tank colori, bassi costi per pagina, cablata USB / Wi-Fi
+DCP-T510W — Ink-tank colori, Wi-Fi, stampa fronte/retro manuale
+DCP-T580DW — Ink‑tank colori, duplex, Wi‑Fi, bassi costi per pagina
+DCP-T710W — Ink-tank colori, Wi-Fi, touchscreen, bassi costi per pagina
+DCP-T820DW — Ink-tank colori, A4, Wi-Fi, touchscreen
+
+PJ-773 — Stampante mobile termica, perfetta per ricevute e documenti in mobilità.
+
+TD-4550DNWB — Stampante etichette ad alta velocità, Wi-Fi, Ethernet, Bluetooth.

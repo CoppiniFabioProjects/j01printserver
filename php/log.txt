@@ -1,0 +1,889 @@
+Modifica stampante:
+Nome: DCPJ1200Wrete
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: locaocdsa
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200Wrete
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: locaocdsa
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200Wdedede
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: 
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200Wdedede
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: 
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200Wdedede
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: 
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200Wdedede
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: 
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: sckhsdkjfrd
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: dwdwdwdw
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: dwdwdwdw
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: dioooooooooooooooooooooooooooooooo
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: diooooooooo ooooooooooooooooooooooo
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: diooooooooo ooooooooooooooooooooooo
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: diooooooooo ooooooooooooooooooooooo
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: dio    oooo sono fabio
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: dio    oooo sono fabio
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: dioooo oooooooooooooo oooooooooooooo
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: dioooo oooooooooooooo oooooooooooooo
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: DCPJ1200W
+Location: dioooo oooooooooooooo oooooooooooooo
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: "$description"
+Location: "$location"
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: descri ption
+Location: location
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: pi ppo
+Location: locatiof r
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: pi ppo
+Location: locatiof r
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: pi ppo
+Location: locatiof r
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: pi ppo
+Location: locatiofsxdc wee
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: pi ppo
+Location: locatiofsxdc wee
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: pi ppo
+Location: locatiofsxdc wee
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: pi ppo
+Location: locatiofsxdc wee
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: pi ppo
+Location: locatiof rmmmm
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: 'pi_ppo'
+Location: 'locatiof_rmmmm'
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: pi_ppo
+Location: locatiof_rmmmm
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: pi_ppo  
+Location: locatiof_rmmmm
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: pi_ppo__
+Location: locatiof_rmmmm  
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: usb://dev/usb/lp0
+Descrizione: pi_pp o__
+Location: locatiof_rmmmm
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200W
+URL connessione: socket://localhost
+Descrizione: pi_pp_o__
+Location: locatiof_rmmmm
+PPD Path: lsb/usr/Brother/brother_dcpj1200w_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: axsxsxssxs
+URL connessione: ipps://xsxsx
+Descrizione: xsxsx
+Location: xsxsx
+PPD Path: lsb/usr/cupsfilters/Fuji_Xerox-DocuPrint_CM305_df-PDF.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: axsxsxssxs
+URL connessione: ipps://xsxsx
+Descrizione: xsxsx
+Location: xsxsx
+PPD Path: lsb/usr/cupsfilters/Fuji_Xerox-DocuPrint_CM305_df-PDF.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: PDF2_2
+URL connessione: http://porcapaletta.com
+Descrizione: PDF2_2
+Location: 
+PPD Path: drv:///generic-brf.drv/gen-brf.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: IPP-Brother1_1
+URL connessione: https://lcoalhost.it
+Descrizione: IPP-Brother1_1
+Location: nuovalocation
+PPD Path: drv:///sample.drv/intelbar.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: IPP-Brother1_1
+URL connessione: https://lcoalhost.it
+Descrizione: IPP-Brother1_1
+Location: nuovalocation
+PPD Path: drv:///sample.drv/intelbar.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: HLL9430CDNssssssss
+URL connessione: https://localhost.it
+Descrizione: NUOVADESCRIZIONEEDITATATHLL9430CDN
+Location: JNUOVALOCATION
+PPD Path: drv:///sample.drv/epson24.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'HLL9430CDNssssssss\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: DCPJ1200WNUOVO
+URL connessione: socket://NUVOOLOCALHSOT
+Descrizione: NUOVOGIPPO
+Location: LOCATIONNUOVA
+PPD Path: drv:///sample.drv/generpcl.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'DCPJ1200WNUOVO\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: 1PDF_2
+URL connessione: https://lkocalhost.it
+Descrizione: 1PDF_2
+Location: 
+PPD Path: lsb/usr/cupsfilters/Fuji_Xerox-DocuPrint_CM305_df-PDF.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'1PDF_2\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: SocketLaser_2
+URL connessione: https://localhost.it
+Descrizione: SocketLaser_2
+Location: 
+PPD Path: drv:///indexv4.drv/ibasics4.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'SocketLaser_2\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: Admin_Advance_Floor34
+URL connessione: ipp://15.24.26.31
+Descrizione: Admin_Advance_Floor3
+Location: nuova location
+PPD Path: drv:///sample.drv/zebraep1.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'Admin_Advance_Floor34\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: Archive_Dept_Printer19NUOVOEDIT
+URL connessione: ipp://NUOVOEDITarchive-printer.local:631/ipp/print
+Descrizione: NUVOEDITArchive_Dept_Printer19
+Location: NUOVOEDITLOCATION
+PPD Path: drv:///sample.drv/dymo.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'Archive_Dept_Printer19NUOVOEDIT\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: Admin_Advance_Floor34
+URL connessione: ipp://12.32.25.1
+Descrizione: Admin_Advance_Floor3DESCRIZIONE NUOVA
+Location: LOCATION NUOVA
+PPD Path: drv:///sample.drv/dymo.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'Admin_Advance_Floor34\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: Admin_Advance_Floor34
+URL connessione: ipp://125.32.213
+Descrizione: NUOVAEDITDESCAdmin_Advance_Floor3
+Location: NUOVALOCATION
+PPD Path: drv:///sample.drv/dymo.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'Admin_Advance_Floor34\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: Admin_Advance_Floor3cdc
+URL connessione: ipp://114.02.01010.214
+Descrizione: 010101Admin_Advance_Floor3
+Location: 0101010214452145
+PPD Path: lsb/usr/cupsfilters/Fuji_Xerox-DocuPrint_CM305_df-PDF.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'Admin_Advance_Floor3cdc\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: Admin_Advance_Floor3
+URL connessione: ipp://192.168.10.11:631/printers/Admin_Advance_Floor3
+Descrizione: Admin_Advance_Floor3
+Location: 
+PPD Path: lsb/usr/brother/brother-HLL2865DW-cups-en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'Admin_Advance_Floor3\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: nuovoAdmin_Advance_Floor3
+URL connessione: ipp://192.168.10.11:631/printers/Admin_Advance_Floor3nuovo
+Descrizione: nuovoAdmin_Advance_Floor3
+Location: nuovoloca
+PPD Path: lsb/usr/Brother/brother_hll8260cdw_printer_en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'nuovoAdmin_Advance_Floor3\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: nuovaAdmin_Advance_Floor3
+URL connessione: ipp://192.168.10.11:631/printers/Admin_Advance_Floor3nuovo
+Descrizione: nuovadescAdmin_Advance_Floor3
+Location: nuovaloca
+PPD Path: lsb/usr/brother/brother-HLL2865DW-cups-en.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'nuovaAdmin_Advance_Floor3\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: BrotherMFC-L9550CDW
+URL connessione: http://10.7.3.42:80/WebServices/Device
+Descrizione: fatto_per_vedere_se_accetta_duplicati
+Location: Ufficio_Assistenza
+PPD Path: drv:///sample.drv/okidata9.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'BrotherMFC-L9550CDW\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: lexmark_mb2236
+URL connessione: ipp://10.7.3.35
+Descrizione: Lexmark_mb2236
+Location: Ufficio_Assistenza
+PPD Path: drv:///sample.drv/deskjet.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'lexmark_mb2236\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: Genericadiprova
+URL connessione: ipp://hostamegenerico
+Descrizione: descrizione_di_prova modificata
+Location: si_possono_omettere_sia_location_che_descrizione
+PPD Path: lsb/usr/cupsfilters/Fuji_Xerox-DocuPrint_CM305_df-PDF.ppd
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'Genericadiprova\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: edde
+URL connessione: http://porta
+Descrizione: dededede
+Location: dededede
+PPD Path: raw
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'edde\' modificata con successo.',
+)
+-------------------------------------------
+Modifica stampante:
+Nome: Prova
+URL connessione: http://10.7.3.15
+Descrizione: desc_di_prova
+Location: location_di_prova
+PPD Path: everywhere
+Risultato editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante \'Prova\' modificata con successo.',
+)
+-------------------------------------------
+TO_TRANSLATE: Modifica stampante:
+TO_TRANSLATE: Nome:
+: zaxasdscewq
+TO_TRANSLATE: Url connessione:
+: http://10.7.3.42:80/WebServices/Device
+TO_TRANSLATE: Descrizione:
+: dewdS
+TO_TRANSLATE: Location:
+: SADX
+TO_TRANSLATE: PPD path:
+: lsb/usr/cupsfilters/Ricoh-PDF_Printer-PDF.ppd
+TO_TRANSLATE: Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'TO_TRANSLATE: Stampante modificata con successo: zaxasdscewq.',
+)
+-------------------------------------------\nTO_TRANSLATE: Modifica stampante:
+TO_TRANSLATE: Nome:
+: HLL9310CDW
+TO_TRANSLATE: Url connessione:
+: ipp://10.7.3.36
+TO_TRANSLATE: Descrizione:
+: HLL9310CDW
+TO_TRANSLATE: Location:
+: 
+TO_TRANSLATE: PPD path:
+: lsb/usr/Brother/brother_hll9310cdw_printer_en.ppd
+TO_TRANSLATE: Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'TO_TRANSLATE: Stampante modificata con successo: HLL9310CDW.',
+)
+-------------------------------------------\nTO_TRANSLATE: Modifica stampante:
+TO_TRANSLATE: Nome:
+: HLL9310CDW
+TO_TRANSLATE: Url connessione:
+: socket://10.7.3.36
+TO_TRANSLATE: Descrizione:
+: HLL9310CDW
+TO_TRANSLATE: Location:
+: 
+TO_TRANSLATE: PPD path:
+: lsb/usr/Brother/brother_hll9310cdw_printer_en.ppd
+TO_TRANSLATE: Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'TO_TRANSLATE: Stampante modificata con successo: HLL9310CDW.',
+)
+-------------------------------------------\nTO_TRANSLATE: Modifica stampante:
+TO_TRANSLATE: Nome:
+: HLL9310CDW
+TO_TRANSLATE: Url connessione:
+: socket://10.7.3.36
+TO_TRANSLATE: Descrizione:
+: HLL9310CDW
+TO_TRANSLATE: Location:
+: Ufficio Assistenza
+TO_TRANSLATE: PPD path:
+: lsb/usr/Brother/brother_hll9310cdw_printer_en.ppd
+TO_TRANSLATE: Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'TO_TRANSLATE: Stampante modificata con successo: HLL9310CDW.',
+)
+-------------------------------------------\nTO_TRANSLATE: Modifica stampante:
+TO_TRANSLATE: Nome:
+: HLL9310CDW
+TO_TRANSLATE: Url connessione:
+: ipp://10.7.3.36
+TO_TRANSLATE: Descrizione:
+: HLL9310CDW
+TO_TRANSLATE: Location:
+: Ufficio_Assistenza
+TO_TRANSLATE: PPD path:
+: lsb/usr/Brother/brother_hll9310cdw_printer_en.ppd
+TO_TRANSLATE: Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'TO_TRANSLATE: Stampante modificata con successo: HLL9310CDW.',
+)
+-------------------------------------------\nTO_TRANSLATE: Modifica stampante:
+TO_TRANSLATE: Nome:
+: HLL9200CDW
+TO_TRANSLATE: Url connessione:
+: ipp://10.7.3.36
+TO_TRANSLATE: Descrizione:
+: HLL9200CDW
+TO_TRANSLATE: Location:
+: 
+TO_TRANSLATE: PPD path:
+: lsb/usr/Brother/brother_hll9200cdw_printer_en.ppd
+TO_TRANSLATE: Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'TO_TRANSLATE: Stampante modificata con successo: HLL9200CDW.',
+)
+-------------------------------------------\nTO_TRANSLATE: Modifica stampante:
+TO_TRANSLATE: Nome:
+: HLL9200CDW
+TO_TRANSLATE: Url connessione:
+: ipp://10.7.3.36/BINARY_P1
+TO_TRANSLATE: Descrizione:
+: HLL9200CDW
+TO_TRANSLATE: Location:
+: 
+TO_TRANSLATE: PPD path:
+: lsb/usr/Brother/brother_hll9200cdw_printer_en.ppd
+TO_TRANSLATE: Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'TO_TRANSLATE: Stampante modificata con successo: HLL9200CDW.',
+)
+-------------------------------------------\nTO_TRANSLATE: Modifica stampante:
+TO_TRANSLATE: Nome:
+: HLL9200CDW
+TO_TRANSLATE: Url connessione:
+: lpd://10.7.3.36/BINARY_P1
+TO_TRANSLATE: Descrizione:
+: HLL9200CDW
+TO_TRANSLATE: Location:
+: Ufficio Assistenza
+TO_TRANSLATE: PPD path:
+: lsb/usr/Brother/brother_hll9200cdw_printer_en.ppd
+TO_TRANSLATE: Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'TO_TRANSLATE: Stampante modificata con successo: HLL9200CDW.',
+)
+-------------------------------------------\nTO_TRANSLATE: Modifica stampante:
+TO_TRANSLATE: Nome:
+: HLL9200CDW
+TO_TRANSLATE: Url connessione:
+: ipp://10.7.3.36
+TO_TRANSLATE: Descrizione:
+: HLL9200CDW
+TO_TRANSLATE: Location:
+: Ufficio Assistenza
+TO_TRANSLATE: PPD path:
+: everywhere
+TO_TRANSLATE: Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'TO_TRANSLATE: Stampante modificata con successo: HLL9200CDW.',
+)
+-------------------------------------------\nTO_TRANSLATE: Modifica stampante:
+TO_TRANSLATE: Nome:
+: HLL9200CDW
+TO_TRANSLATE: Url connessione:
+: ipp://10.7.3.36
+TO_TRANSLATE: Descrizione:
+: HLL9200CDW
+TO_TRANSLATE: Location:
+: Ufficio_Assistenza
+TO_TRANSLATE: PPD path:
+: everywhere
+TO_TRANSLATE: Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'TO_TRANSLATE: Stampante modificata con successo: HLL9200CDW.',
+)
+-------------------------------------------\nTO_TRANSLATE: Modifica stampante:
+TO_TRANSLATE: Nome:
+: HLL9200CDW
+TO_TRANSLATE: Url connessione:
+: ipp://10.7.3.36
+TO_TRANSLATE: Descrizione:
+: HLL9200CDW
+TO_TRANSLATE: Location:
+: Ufficio_Assistenza
+TO_TRANSLATE: PPD path:
+: everywhere
+TO_TRANSLATE: Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'TO_TRANSLATE: Stampante modificata con successo: HLL9200CDW.',
+)
+-------------------------------------------\nTO_TRANSLATE: Modifica stampante:
+TO_TRANSLATE: Nome:
+: HLL9200CDW
+TO_TRANSLATE: Url connessione:
+: ipp://10.7.3.36
+TO_TRANSLATE: Descrizione:
+: HLL9200CDW
+TO_TRANSLATE: Location:
+: Ufficio_Assistenza
+TO_TRANSLATE: PPD path:
+: lsb/usr/Brother/brother_hll9310cdw_printer_en.ppd
+TO_TRANSLATE: Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'TO_TRANSLATE: Stampante modificata con successo: HLL9200CDW.',
+)
+-------------------------------------------\nTO_TRANSLATE: Modifica stampante:
+TO_TRANSLATE: Nome:
+: HLL9200CDW
+TO_TRANSLATE: Url connessione:
+: ipp://10.7.3.36
+TO_TRANSLATE: Descrizione:
+: HLL9200CDW
+TO_TRANSLATE: Location:
+: Ufficio_Assistenza
+TO_TRANSLATE: PPD path:
+: everywhere
+TO_TRANSLATE: Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'TO_TRANSLATE: Stampante modificata con successo: HLL9200CDW.',
+)
+-------------------------------------------\nModifica stampante:
+Nome:
+: HLL9200CDW
+Url connessione:
+: ipp://10.7.3.36
+Descrizione:
+: HLL9200CDW
+Location:
+: Ufficio_Assistenza
+PPD path:
+: drv:///sample.drv/generpcl.ppd
+Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante modificata con successo: HLL9200CDW.',
+)
+-------------------------------------------\nModifica stampante:
+Nome:
+: lexmark_mb2236
+Url connessione:
+: ipp://10.7.3.35
+Descrizione:
+: Lexmark_MB2236adw_version_MXLSG.060.041_kernel_4.11.12-yocto-standard-4171eb097f18ab5d38d5cfa41ddf1327_All-N-1_-_ET0021B75F83C5_-_Lexmark_MB2236adw_34009001033TV_MXLSG.060.041_-_Lexmark_PCL
+Location:
+: 
+PPD path:
+: drv:///sample.drv/laserjet.ppd
+Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante modificata con successo: lexmark_mb2236.',
+)
+-------------------------------------------\nModifica stampante:
+Nome:
+: lexmark_mb2236
+Url connessione:
+: ipp://10.7.3.35
+Descrizione:
+: Lexmark_MB2236adw_version_MXLSG.060.041_kernel_4.11.12-yocto-standard-4171eb097f18ab5d38d5cfa41ddf1327_All-N-1_-_ET0021B75F83C5_-_Lexmark_MB2236adw_34009001033TV_MXLSG.060.041_-_Lexmark_PCL
+Location:
+: 
+PPD path:
+: everywhere
+Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante modificata con successo: lexmark_mb2236.',
+)
+-------------------------------------------\nModifica stampante:
+Nome:
+: 1001
+Url connessione:
+: lpd://10.7.3.36
+Descrizione:
+: lexmark_colori
+Location:
+: Ufficio_Assistenza_prove
+PPD path:
+: lsb/usr/Brother/brother_hll9200cdw_printer_en.ppd
+Risultato:
+: editPrinter: array (
+  'success' => true,
+  'message' => 'Stampante modificata con successo: 1001.',
+)
+-------------------------------------------\n

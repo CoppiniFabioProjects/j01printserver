@@ -1,0 +1,13 @@
+2025-10-23 16:51:11.423: PrinterService       | INFO  | call (TEST) - avvio
+2025-10-23 16:51:16.940: PrinterService       | INFO  | call (TEST) - INIZIO stampa 237347
+2025-10-23 16:51:32.164: PrinterService       | INFO  | call (TEST) - FINE   stampa 237347
+2025-10-23 17:25:01.920: PrinterService       | INFO  | call (TEST) - INIZIO stampa 237483
+2025-10-23 17:25:02.813: PrinterService       | WARN  | call (TEST) - STAMPA 237483 non riuscita: rimetto in coda
+2025-10-23 17:25:02.814: PrinterService       | INFO  | call (TEST) - FINE   stampa 237483
+2025-10-23 17:25:02.814: PrinterService       | INFO  | call (TEST) - INIZIO stampa 237483
+2025-10-23 17:25:03.375: PrinterService       | INFO  | call (TEST) - FINE   stampa 237483
+2025-10-23 17:26:06.926: PrinterService       | INFO  | call (TEST) - INIZIO stampa 237484
+2025-10-23 17:26:07.962: PrinterService       | WARN  | call (TEST) - STAMPA 237484 non riuscita: rimetto in coda
+2025-10-23 17:26:07.962: PrinterService       | INFO  | call (TEST) - FINE   stampa 237484
+2025-10-23 17:26:07.963: PrinterService       | INFO  | call (TEST) - INIZIO stampa 237484
+2025-10-23 17:26:08.329: PrinterService       | INFO  | call (TEST) - FINE   stampa 237484

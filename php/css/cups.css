@@ -1,0 +1,524 @@
+.ag-format-container {
+  margin: 0 auto;
+}
+
+.ag-courses_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  padding: 50px 0;
+}
+.ag-courses_item {
+  -ms-flex-preferred-size: calc(33.33333% - 30px);
+  flex-basis: calc(33.33333% - 30px);
+  height: 250px;
+  margin: 0 15px 30px;
+
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+
+  
+}
+.ag-courses_item svg {
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+
+.ag-courses-item_link {
+    height: 250px;
+    text-decoration: none;
+    display: block;
+    padding: 30px 20px;
+    background-color: #383838;
+
+    overflow: hidden;
+
+    position: relative;
+}
+.ag-courses-item_link:hover,
+.ag-courses-item_link:hover .ag-courses-item_date {
+  text-decoration: none;
+  color: #FFF;
+}
+.ag-courses-item_link:hover .ag-courses-item_bg {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+.ag-courses-item_title {
+  min-height: 87px;
+  margin: 0 0 25px;
+
+  overflow: hidden;
+
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFF;
+
+  z-index: 2;
+  position: relative;
+}
+.ag-courses-item_date-box {
+  font-size: 18px;
+  color: #FFF;
+
+  z-index: 2;
+  position: relative;
+}
+.ag-courses-item_date {
+  font-weight: bold;
+  color: #f9b234;
+
+  -webkit-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease
+}
+.ag-courses-item_bg {
+  height: 128px;
+  width: 128px;
+  background-color: #0055ff;
+
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+
+  border-radius: 50%;
+
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.ag-courses_item:nth-child(2n) .ag-courses-item_bg {
+  background-color: #ff0000;
+}
+.ag-courses_item:nth-child(3n) .ag-courses-item_bg {
+  background-color: #ffe600;
+}
+.ag-courses_item:nth-child(4n) .ag-courses-item_bg {
+  background-color: #952aff;
+}
+.ag-courses_item:nth-child(5n) .ag-courses-item_bg {
+  background-color: #cd3e94;
+}
+.ag-courses_item:nth-child(6n) .ag-courses-item_bg {
+  background-color: #4c49ea;
+}
+
+label[for="filterSelect"]{
+	font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 10px;
+    color: #000000;
+    vertical-align: middle;
+}
+
+table{
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+table th {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    background: #2461a3;
+    color: #ffffff;
+    padding: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+table td{
+  padding: 0.5rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+fieldset{
+  border: 1px solid;
+  border-image: linear-gradient(45deg, #2461a3, #ff0000, #ffe600) 1;
+}
+
+fieldset legend{
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+fieldset label {
+  display: flex;               /* allinea il pallino e il testo */
+  align-items: center;         /* centra verticalmente */
+  font-size: 1rem;           /* grandezza del testo */
+  margin-bottom: 12px;         /* spazio tra le opzioni */
+  gap: 12px;                   /* spazio tra pallino e testo */
+  cursor: pointer;
+}
+
+fieldset input[type="radio"] {
+  width: 20px;                 /* larghezza del pallino */
+  height: 20px;                /* altezza del pallino */
+  accent-color: #2461a3;      /* colore pallino selezionato (moderno) */
+}
+
+.div-ricerca{
+  margin: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#printerSearch{
+  border: 1px solid;
+  border-image: linear-gradient(45deg, #2461a3, #ff0000, #ffe600) 1;
+  outline: none;
+  padding: 0.3rem;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.highlight-row {
+  background-color: #ffff99 !important;
+}
+
+
+.url-example-box {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.85em;
+  color: #555;
+  background-color: #f5f5f5;
+  padding: 6px 10px;
+  border-left: 4px solid #007acc;
+  border-radius: 4px;
+}
+
+/* Sfondo modale: full screen, semi-trasparente e sopra tutto */
+#printerModal {
+  display: none; /* nascosto di default */
+  position: fixed;
+  z-index: 1000; /* sopra tutto */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* scroll se necessario */
+  background-color: rgba(0, 0, 0, 0.5); /* nero semi-trasparente */
+  animation: fadeInBg 0.3s ease forwards;
+}
+
+#optionsPrinterModal {
+  display: none; /* nascosto di default */
+  position: fixed;
+  z-index: 1000; /* sopra tutto */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* scroll se necessario */
+  background-color: rgba(0, 0, 0, 0.5); /* nero semi-trasparente */
+  animation: fadeInBg 0.3s ease forwards;
+  text-align: center;
+}
+
+
+.modal-title {    
+  padding: 1.1rem;
+    font-weight: bold;
+    color: #007acc;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
+}
+
+/* Box contenuto modale */
+.modal-content {
+  text-align: center;
+  background-color: #fff;
+  margin: 5% auto; /* verticale margine e centrato orizzontalmente */
+  padding: 20px 30px;
+  border: 1px solid;
+  border-image: linear-gradient(45deg, #2461a3, #ff0000, #ffe600) 1;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  animation: slideDown 0.3s ease forwards;
+  position: relative;
+}
+
+.group-div {
+  border: 1px solid;
+  border-image: linear-gradient(45deg, #2461a3, #ff0000, #ffe600) 1;
+  padding: 1rem;
+  text-align: center;
+}
+
+.option-wrapper {
+  margin-bottom: 10px;
+  display: flex;      
+  align-items: center;    
+  gap: 6px;    
+  cursor: pointer;          
+}
+
+.option-input {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/* Bottone chiusura (X) in alto a destra */
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.close-modal:hover {
+  color: #000;
+}
+
+/* Animazioni */
+@keyframes fadeInBg {
+  from {background-color: rgba(0,0,0,0);}
+  to {background-color: rgba(0,0,0,0.5);}
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tooltip-target{
+  color: #2461a3;
+}
+
+/* Form interno */
+.modal-content form label {
+  margin-top: 1rem;
+  display: block;
+  color: #333;
+}
+
+.modal-content form input[type="text"],
+.modal-content form input[type="url"],
+.modal-content form input[type="file"],
+.modal-content form select {
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  padding: 8px 12px;
+  margin-top: 6px;
+  border: 1px solid;
+  border-image: linear-gradient(45deg, #2461a3, #ff0000, #ffe600) 1;
+  font-size: 15px;
+  transition: border-color 0.2s ease;
+}
+
+.modal-content form input[type="text"]:focus,
+.modal-content form input[type="url"]:focus,
+.modal-content form input[type="file"]:focus,
+.modal-content form select:focus {
+  outline: none;
+}
+
+
+/*box $message aggiornamenti e modifiche*/
+.message-box {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  position: relative;
+  max-width: 400px;
+  font-size: 1.1rem;
+}
+
+.message-box .message-close-btn {
+  display: block;
+  margin: 8px auto 0 auto;
+  /*background: linear-gradient(135deg, #0055ff, #ff0000, #ffe600);*/
+  background: #2461a3;
+  color: white;
+  border: none; /* Nessun bordo */
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 16px;
+  font-family: "Times New Roman", serif;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  background-size: 200% 200%;
+  background-position: center;
+}
+
+.message-box .message-close-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+  background-position: right center;
+}
+
+.message-box .message-close-btn:active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.form-no-shadow {
+  box-shadow: none !important;
+  outline: none !important;
+  width: unset !important;
+  margin: 0 auto !important;
+  display: inline-block !important;
+}
+
+/*cups view modal attuale produttore e attuale modello, serve per avere i campi solo quando mi trovo in modifica del modale e non in aggiunta*/
+/*#currentModel, #currentModelHidden,
+#currentManufacturer, #currentManufacturerHidden {
+    display: none;
+}
+*/
+@media only screen and (max-width: 979px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: calc(50% - 30px);
+    flex-basis: calc(50% - 30px);
+  }
+  .ag-courses-item_title {
+    font-size: 24px;
+  }
+
+
+  #queue-printer.content table th:nth-child(6),
+  #queue-printer.content table td:nth-child(6),
+  #queue-printer.content table th:nth-child(7),
+  #queue-printer.content table td:nth-child(7) {
+    display: none;
+  }
+
+  #modalQueueTable th:nth-child(5),
+  #modalQueueTable td:nth-child(5) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+
+  .ag-format-container {
+    width: 96%;
+  }
+
+  input[type="radio"] {
+    transform: scale(1.5); /* Ingrandisce del 50% */
+  }
+
+  #queue-printer.content > table {
+    margin-left: auto;
+  }
+
+  #queue-printer.content table th:nth-child(6),
+  #queue-printer.content table td:nth-child(6),
+  #queue-printer.content table th:nth-child(7),
+  #queue-printer.content table td:nth-child(7),
+  #queue-printer.content table th:nth-child(8),
+  #queue-printer.content table td:nth-child(8) {
+    display: none;
+  }
+  
+
+}
+@media only screen and (max-width: 639px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .ag-courses-item_title {
+    min-height: 72px;
+    line-height: 1;
+
+    font-size: 24px;
+  }
+  .ag-courses-item_link {
+    padding: 22px 40px;
+  }
+  .ag-courses-item_date-box {
+    font-size: 16px;
+  }
+}
+
+/*Pulsante mostra coda per stampante specifica*/
+.btn-get-queue-by-printer {
+  position: relative;
+  display: block;
+  /*background: linear-gradient(135deg, #0055ff, #ff0000, #ffe600);*/
+  background: #2461a3;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 8px 12px;
+  width: 100%;
+  font-family: "Times New Roman", serif;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  background-size: 200% 200%;
+  background-position: center;
+}
+
+.btn-get-queue-by-printer:hover {
+  opacity: 0.9;
+  background-position: right center;
+}
+
+.btn-get-queue-by-printer:active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Overlay e posizione modale */
+#queueModal.modal {
+  display: none; /* nascosto di default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5); /* sfondo scuro semi-trasparente */
+  z-index: 1000; 
+  overflow: auto; /* scroll se necessario */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Box modale */
+#queueModal .modal-content {
+  background: #fff;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+
+.hidden-queue {
+    display: none;
+}
+
+.hidden-printer {
+    display: none;
+}

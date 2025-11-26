@@ -1,0 +1,11 @@
+--2025-06-26 15:43:55--  https://download.brother.com/pub/com/linux/linux/infs/HL5470DW
+Resolving download.brother.com (download.brother.com)... 104.83.85.112
+Connecting to download.brother.com (download.brother.com)|104.83.85.112|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 239 [text/plain]
+Saving to: ‘/tmp/brprinter-installer_TFMauU/HL5470DW’
+
+     0K                                                       100%  214M=0s
+
+2025-06-26 15:43:56 (214 MB/s) - ‘/tmp/brprinter-installer_TFMauU/HL5470DW’ saved [239/239]
+

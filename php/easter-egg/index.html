@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Asteroids Game - Easter Egg</title>
+<link rel="stylesheet" href="css/style.css" />
+<style>
+  /* Stile per la scritta gigante luminosa */
+  #introScreen {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: black;
+    color: #8c00ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    font-weight: bold;
+    text-shadow:
+      0 0 10px #8c00ff,
+      0 0 20px #8c00ff,
+      0 0 30px #8c00ff,
+      0 0 40px #8c00ff,
+      0 0 50px #8c00ff,
+      0 0 60px #8c00ff,
+      0 0 70px #8c00ff;
+    cursor: pointer;
+    user-select: none;
+    z-index: 9999;
+  }
+  /* Nascondi il gioco finché non esci dall'intro */
+  #gameContainer {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<div id="introScreen">MADONNA CHE DURO!<br></div>
+
+<div id="gameContainer">
+  <div id="gameInfoContainer">
+    <div id="scoreLivesInfo">
+      Score: <span id="score">0</span> | Lives: <span id="lives">3</span>
+    </div>
+    <div id="powerUpInfo">Power-up: <span id="powerUpStatus">None</span></div>
+    <div id="thrustInfo">Thrust: <span id="thrustLevel">1.0</span>x</div>
+  </div>
+
+  <canvas id="gameCanvas"></canvas>
+
+  <div id="controls">
+    <button id="leftBtn">left Turn</button>
+    <button id="thrustBtn">Thrust</button>
+    <button id="rightBtn">Turn right</button>
+    <button id="fireBtn">Fire</button>
+    <button id="restartBtn" style="display: none">Restart</button>
+  </div>
+
+  <div id="messageArea">
+    <p id="messageText"></p>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+
+<script>
+  const introScreen = document.getElementById('introScreen');
+  const gameContainer = document.getElementById('gameContainer');
+
+  function startGame() {
+    introScreen.style.display = 'none';
+    gameContainer.style.display = 'block';
+  }
+
+  // Premi INVIO per far partire il gioco
+  document.addEventListener('keydown', (e) => {
+    if (introScreen.style.display !== 'none' && e.key === 'Enter') {
+      startGame();
+    }
+  });
+
+  // In alternativa cliccando sulla scritta si parte subito
+  introScreen.addEventListener('click', () => {
+    startGame();
+  });
+</script>
+
+</body>
+</html>
+
+
+<script>
+  if (document.referrer.indexOf("manager.php") === -1) {
+    window.location.href = "../manager.php";
+  }
+</script>

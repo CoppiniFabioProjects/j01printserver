@@ -1,0 +1,2 @@
+Errore: 
+Successo: /usr/bin/cancel -a.

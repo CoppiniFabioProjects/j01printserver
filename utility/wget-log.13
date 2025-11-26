@@ -1,0 +1,13 @@
+--2025-06-26 15:43:56--  https://download.brother.com/pub/com/linux/linux/packages/hll9430cdnpdrv-3.5.0-1.i386.deb
+Resolving download.brother.com (download.brother.com)... 104.83.85.112
+Connecting to download.brother.com (download.brother.com)|104.83.85.112|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 142498 (139K) [text/plain]
+Saving to: ‘hll9430cdnpdrv-3.5.0-1.i386.deb’
+
+     0K .......... .......... .......... .......... .......... 35% 1002K 0s
+    50K .......... .......... .......... .......... .......... 71% 3.08M 0s
+   100K .......... .......... .......... .........            100% 5.71M=0.07s
+
+2025-06-26 15:43:56 (1.88 MB/s) - ‘hll9430cdnpdrv-3.5.0-1.i386.deb’ saved [142498/142498]
+

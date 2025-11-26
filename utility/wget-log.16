@@ -1,0 +1,11 @@
+--2025-06-27 16:27:21--  https://download.brother.com/pub/com/linux/linux/infs/brscan4.lnk
+Resolving download.brother.com (download.brother.com)... 104.83.85.112
+Connecting to download.brother.com (download.brother.com)|104.83.85.112|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 131 [text/plain]
+Saving to: ‘/tmp/brprinter-installer_ylGq3z/brscan4.lnk’
+
+     0K                                                       100% 63.1M=0s
+
+2025-06-27 16:27:21 (63.1 MB/s) - ‘/tmp/brprinter-installer_ylGq3z/brscan4.lnk’ saved [131/131]
+

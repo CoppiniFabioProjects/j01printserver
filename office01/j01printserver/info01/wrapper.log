@@ -1,0 +1,126 @@
+
+Sep 30, 2025 12:13:08 PM it.info01.j01compat.PlatformFactory refreshFactory
+INFO: INIZIO configurazione
+ -> _info01-config.xml
+java.io.FileNotFoundException: /codice01/config/info01-config.xml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at it.info01.j01compat.Info01Config.apriConfigXmlExecute(Info01Config.java:155)
+	at it.info01.j01compat.Info01Config.apriConfigXml(Info01Config.java:79)
+	at it.info01.j01compat.PlatformFactory.refreshFactory(PlatformFactory.java:56)
+	at it.info01.j01compat.PlatformFactory.<clinit>(PlatformFactory.java:47)
+	at it.info01.j01printserver.Info01PrintServerConfig.readXMLConfig(Info01PrintServerConfig.java:290)
+	at it.info01.j01printserver.Info01PrintServer.main(Info01PrintServer.java:299)
+Sep 30, 2025 12:13:08 PM it.info01.j01compat.PlatformFactory refreshFactory
+SEVERE: static - ##=======================================##
+Sep 30, 2025 12:13:08 PM it.info01.j01compat.PlatformFactory refreshFactory
+SEVERE: static - Lettura attributo 'tipo-installazione.piattaforma' non riuscita
+Sep 30, 2025 12:13:08 PM it.info01.j01compat.PlatformFactory refreshFactory
+SEVERE: static -     utilizzato default AS400
+Sep 30, 2025 12:13:08 PM it.info01.j01compat.PlatformFactory refreshFactory
+SEVERE: static - ##=======================================##
+Sep 30, 2025 12:13:08 PM it.info01.j01compat.PlatformFactory refreshFactory
+INFO: static - ##=======================================##
+Sep 30, 2025 12:13:08 PM it.info01.j01compat.PlatformFactory refreshFactory
+INFO: static - FINE   configurazione [AS400]
+Sep 30, 2025 12:13:08 PM it.info01.j01compat.PlatformFactory refreshFactory
+INFO: static - ##=======================================##
+** Test di Connesione al DB ** : RIUSCITO j01PrintServer Versione 2022-02 (supporta richieste invio email immediate) 
+** Test di Stampanti disponibili sul sistema ** : Inizio---OsName:Linux-----------------------------------------
+** Test di Stampanti disponibili sul sistema ** : Number of print services>0<
+** Test di Stampanti disponibili sul sistema ** : Fine  ------------------------------------------------ 
+?? Lettura Configurazione ?? INIZIO 30/09/2025 12:13:08 millis Trascorsi:0
+?? Lettura Configurazione ?? FINE 30/09/2025 12:13:09 millis Trascorsi:297
+Exception in thread "main" java.lang.IllegalArgumentException
+	at java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1303)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1189)
+	at java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:92)
+	at it.info01.j01printserver.service.WebListenerService.<init>(WebListenerService.java:45)
+	at it.info01.j01printserver.service.WatchdogService.<init>(WatchdogService.java:33)
+	at it.info01.j01printserver.service.ServiceRunner.startup(ServiceRunner.java:22)
+	at it.info01.j01printserver.Info01PrintServer.main(Info01PrintServer.java:353)
+
+Sep 30, 2025 12:14:29 PM it.info01.j01compat.PlatformFactory refreshFactory
+INFO: INIZIO configurazione
+ -> _info01-config.xml
+java.io.FileNotFoundException: /codice01/config/info01-config.xml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at it.info01.j01compat.Info01Config.apriConfigXmlExecute(Info01Config.java:155)
+	at it.info01.j01compat.Info01Config.apriConfigXml(Info01Config.java:79)
+	at it.info01.j01compat.PlatformFactory.refreshFactory(PlatformFactory.java:56)
+	at it.info01.j01compat.PlatformFactory.<clinit>(PlatformFactory.java:47)
+	at it.info01.j01printserver.Info01PrintServerConfig.readXMLConfig(Info01PrintServerConfig.java:290)
+	at it.info01.j01printserver.Info01PrintServer.main(Info01PrintServer.java:299)
+Sep 30, 2025 12:14:29 PM it.info01.j01compat.PlatformFactory refreshFactory
+SEVERE: static - ##=======================================##
+Sep 30, 2025 12:14:29 PM it.info01.j01compat.PlatformFactory refreshFactory
+SEVERE: static - Lettura attributo 'tipo-installazione.piattaforma' non riuscita
+Sep 30, 2025 12:14:29 PM it.info01.j01compat.PlatformFactory refreshFactory
+SEVERE: static -     utilizzato default AS400
+Sep 30, 2025 12:14:29 PM it.info01.j01compat.PlatformFactory refreshFactory
+SEVERE: static - ##=======================================##
+Sep 30, 2025 12:14:29 PM it.info01.j01compat.PlatformFactory refreshFactory
+INFO: static - ##=======================================##
+Sep 30, 2025 12:14:29 PM it.info01.j01compat.PlatformFactory refreshFactory
+INFO: static - FINE   configurazione [AS400]
+Sep 30, 2025 12:14:29 PM it.info01.j01compat.PlatformFactory refreshFactory
+INFO: static - ##=======================================##
+** Test di Connesione al DB ** : RIUSCITO j01PrintServer Versione 2022-02 (supporta richieste invio email immediate) 
+** Test di Stampanti disponibili sul sistema ** : Inizio---OsName:Linux-----------------------------------------
+** Test di Stampanti disponibili sul sistema ** : Number of print services>0<
+** Test di Stampanti disponibili sul sistema ** : Fine  ------------------------------------------------ 
+?? Lettura Configurazione ?? INIZIO 30/09/2025 12:14:30 millis Trascorsi:0
+?? Lettura Configurazione ?? FINE 30/09/2025 12:14:30 millis Trascorsi:257
+Exception in thread "main" java.lang.IllegalArgumentException
+	at java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1303)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1189)
+	at java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:92)
+	at it.info01.j01printserver.service.WebListenerService.<init>(WebListenerService.java:45)
+	at it.info01.j01printserver.service.WatchdogService.<init>(WatchdogService.java:33)
+	at it.info01.j01printserver.service.ServiceRunner.startup(ServiceRunner.java:22)
+	at it.info01.j01printserver.Info01PrintServer.main(Info01PrintServer.java:353)
+
+Sep 30, 2025 12:18:08 PM it.info01.j01compat.PlatformFactory refreshFactory
+INFO: INIZIO configurazione
+ -> _info01-config.xml
+java.io.FileNotFoundException: /codice01/config/info01-config.xml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at it.info01.j01compat.Info01Config.apriConfigXmlExecute(Info01Config.java:155)
+	at it.info01.j01compat.Info01Config.apriConfigXml(Info01Config.java:79)
+	at it.info01.j01compat.PlatformFactory.refreshFactory(PlatformFactory.java:56)
+	at it.info01.j01compat.PlatformFactory.<clinit>(PlatformFactory.java:47)
+	at it.info01.j01printserver.Info01PrintServerConfig.readXMLConfig(Info01PrintServerConfig.java:290)
+	at it.info01.j01printserver.Info01PrintServer.main(Info01PrintServer.java:299)
+Sep 30, 2025 12:18:09 PM it.info01.j01compat.PlatformFactory refreshFactory
+SEVERE: static - ##=======================================##
+Sep 30, 2025 12:18:09 PM it.info01.j01compat.PlatformFactory refreshFactory
+SEVERE: static - Lettura attributo 'tipo-installazione.piattaforma' non riuscita
+Sep 30, 2025 12:18:09 PM it.info01.j01compat.PlatformFactory refreshFactory
+SEVERE: static -     utilizzato default AS400
+Sep 30, 2025 12:18:09 PM it.info01.j01compat.PlatformFactory refreshFactory
+SEVERE: static - ##=======================================##
+Sep 30, 2025 12:18:09 PM it.info01.j01compat.PlatformFactory refreshFactory
+INFO: static - ##=======================================##
+Sep 30, 2025 12:18:09 PM it.info01.j01compat.PlatformFactory refreshFactory
+INFO: static - FINE   configurazione [AS400]
+Sep 30, 2025 12:18:09 PM it.info01.j01compat.PlatformFactory refreshFactory
+INFO: static - ##=======================================##
+** Test di Connesione al DB ** : RIUSCITO j01PrintServer Versione 2022-02 (supporta richieste invio email immediate) 
+** Test di Stampanti disponibili sul sistema ** : Inizio---OsName:Linux-----------------------------------------
+** Test di Stampanti disponibili sul sistema ** : Number of print services>0<
+** Test di Stampanti disponibili sul sistema ** : Fine  ------------------------------------------------ 
+?? Lettura Configurazione ?? INIZIO 30/09/2025 12:18:09 millis Trascorsi:0
+?? Lettura Configurazione ?? FINE 30/09/2025 12:18:09 millis Trascorsi:278
+Exception in thread "main" java.lang.IllegalArgumentException
+	at java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1303)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.<init>(ThreadPoolExecutor.java:1189)
+	at java.base/java.util.concurrent.Executors.newFixedThreadPool(Executors.java:92)
+	at it.info01.j01printserver.service.WebListenerService.<init>(WebListenerService.java:45)
+	at it.info01.j01printserver.service.WatchdogService.<init>(WatchdogService.java:33)
+	at it.info01.j01printserver.service.ServiceRunner.startup(ServiceRunner.java:22)
+	at it.info01.j01printserver.Info01PrintServer.main(Info01PrintServer.java:353)

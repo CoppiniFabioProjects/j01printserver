@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE j01printserver-config [
+<!ELEMENT j01printserver-config (system , datasource , device-list , applicationserver-notifica+)>
+<!ATTLIST j01printserver-config listenPort CDATA "8889">
+<!ATTLIST j01printserver-config listenBackLog CDATA "500">
+<!ATTLIST j01printserver-config forcedPollingMillis CDATA "5000">
+<!ATTLIST j01printserver-config rinnovaWebConfigMillis CDATA "180000">
+<!ATTLIST j01printserver-config serverVersion CDATA "2">
+<!ATTLIST j01printserver-config disabilitaAcrobat (true | false) "true">
+<!--
+listenBackLog: dimensione della coda di attesa sulla porta in cui il servizio
+               riceve le notifiche dall'application server di stampa pronta
+               per essere eseguita
+serverVersion: 1 = versione classica di PrintServer
+               2 = versione con code di stampa e gestori (Java 1.6)
+--><!ELEMENT applicationserver-notifica (#PCDATA)>
+<!ELEMENT system (host , username , password)>
+<!ELEMENT host (#PCDATA)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT datasource (set-property)*>
+<!ATTLIST datasource class CDATA "com.ibm.as400.access.AS400JDBCDataSource">
+<!ELEMENT set-property EMPTY>
+<!ATTLIST set-property property CDATA #REQUIRED>
+<!ATTLIST set-property value CDATA #REQUIRED>
+<!ELEMENT device-list (device)+>
+<!ELEMENT device (device-config)+>
+<!ATTLIST device name ID #REQUIRED>
+<!ELEMENT device-config (#PCDATA)>
+<!ATTLIST device-config param CDATA #REQUIRED>
+]>
+<j01printserver-config>
+  <system>
+    <host>10.7.3.214</host>
+    <username>j01smb_d</username>
+    <password>qwertyuiop</password>
+  </system>
+  <datasource>
+    <set-property property="user" value="j01smb_d"/>
+    <set-property property="password" value="qwertyuiop"/>
+    <set-property property="serverName" value="10.7.3.214"/>
+    <set-property property="libraries" value="J01SDB_D J01SMB_D"/>
+    <set-property property="description" value="it.info01 Connessione del server delle stampe"/>
+    <set-property property="naming" value="system"/>
+  </datasource>
+  <device-list>
+    <device name="BROTHJV">
+      <device-config param="printerName">dedewsswswsw</device-config>
+    </device>
+  </device-list>
+  <!-- <applicationserver-notifica>http://localhost:9080/j01smb_p/</applicationserver-notifica> -->
+  <!-- <applicationserver-notifica>http://localhost:9082/j01smb_p/</applicationserver-notifica> -->
+  <!-- <applicationserver-notifica>http://10.7.3.35:9080/j01smb_p/</applicationserver-notifica> ulteriori application server con cui sincronizzarsi -->
+  <applicationserver-notifica>http://10.7.3.214:10000/j01smb_p/</applicationserver-notifica>
+  <applicationserver-notifica>http://10.7.3.214:10000</applicationserver-notifica>
+</j01printserver-config>

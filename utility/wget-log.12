@@ -1,0 +1,11 @@
+--2025-06-26 15:43:56--  https://download.brother.com/pub/com/linux/linux/infs/HLL9430CDN
+Resolving download.brother.com (download.brother.com)... 104.83.85.112
+Connecting to download.brother.com (download.brother.com)|104.83.85.112|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 194 [text/plain]
+Saving to: ‘/tmp/brprinter-installer_TFMauU/HLL9430CDN’
+
+     0K                                                       100%  134M=0s
+
+2025-06-26 15:43:56 (134 MB/s) - ‘/tmp/brprinter-installer_TFMauU/HLL9430CDN’ saved [194/194]
+

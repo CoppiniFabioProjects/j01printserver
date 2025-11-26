@@ -1,0 +1,50 @@
+server {
+    listen 443 ssl default_server;
+    listen [::]:443 ssl default_server;
+
+    root /php;
+    index login.php;
+
+    server_name _;
+
+    ssl_certificate /etc/nginx/ssl/nginx-selfsigned.crt;
+    ssl_certificate_key /etc/nginx/ssl/nginx-selfsigned.key;
+
+    # Configurazione SSL consigliata
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_prefer_server_ciphers on;
+    ssl_ciphers "ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:!aNULL:!MD5:!DSS";
+    ssl_session_timeout 10m;
+    ssl_session_cache shared:SSL:10m;
+    ssl_stapling on;
+    ssl_stapling_verify on;
+    #resolver 8.8.8.8 8.8.4.4 valid=300s;
+    #resolver_timeout 5s;
+
+    # Blocca file nascosti che iniziano con .ht, o con estensioni .bak, .xml, .log, .ini
+    location ~ /\.(ht.*|bak|xml|log|ini)$ {
+        return 403;
+    }
+
+    # Blocca file normali con estensioni .bak, .xml, .log, .ini (case-insensitive)
+    location ~* \.(bak|xml|log|ini)$ {
+        return 403;
+    }
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php8.3-fpm.sock;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+    # Timeout aumentati
+    fastcgi_read_timeout 300;
+    fastcgi_connect_timeout 300;
+    fastcgi_send_timeout 300;
+
+
+}

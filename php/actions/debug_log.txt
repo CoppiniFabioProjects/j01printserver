@@ -1,0 +1,18 @@
+=== REQUEST START ===
+Model ricevuto: 'HL-L8260CDW'
+Comando scritto correttamente: /utility/linux-brprinter-installer-2.2.4-1 -p HL-L8260CDW
+=== REQUEST START ===
+Model ricevuto: 'HL-L9430CDN'
+Comando scritto correttamente: /utility/linux-brprinter-installer-2.2.4-1 -p HL-L9430CDN
+=== REQUEST START ===
+Model ricevuto: 'HL-L2865DW'
+Comando scritto correttamente: /utility/linux-brprinter-installer-2.2.4-1 -p HL-L2865DW
+=== REQUEST START ===
+Model ricevuto: 'HL-L9310CDW'
+Comando scritto correttamente: /utility/linux-brprinter-installer-2.2.4-1 -p HL-L9310CDW
+=== REQUEST START ===
+Model ricevuto: 'HL-L9310CDW'
+Comando scritto correttamente: /utility/linux-brprinter-installer-2.2.4-1 -p HL-L9310CDW
+=== REQUEST START ===
+Model ricevuto: 'HL-L9200CDW'
+Comando scritto correttamente: /utility/linux-brprinter-installer-2.2.4-1 -p HL-L9200CDW
