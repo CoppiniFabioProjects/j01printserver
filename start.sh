@@ -2,6 +2,15 @@
 
 set -e
 
+echo "🔧 Configurazione permessi odbc.ini..."
+# Assicura che il file esista
+touch /etc/odbc.ini
+# Cambia il proprietario in www-data (l'utente che esegue PHP)
+chown www-data:www-data /etc/odbc.ini
+# Permette lettura/scrittura al proprietario e al gruppo
+chmod 664 /etc/odbc.ini
+echo "✅ Permessi odbc.ini aggiornati."
+
 # Prende la versione PHP installata
 PHP_VERSION=$(php -r "echo PHP_MAJOR_VERSION.'.'.PHP_MINOR_VERSION;")
 echo "🔧 Versione PHP rilevata: $PHP_VERSION"
@@ -28,6 +37,14 @@ if service cups start; then
   echo "✅ CUPS avviato con successo."
 else
   echo "❌ Errore nell'avvio di CUPS"
+fi
+
+# Avvia Dbus
+echo "🚀 Avvio di Dbus..."
+if service dbus start; then
+  echo "✅ Dbus avviato con successo."
+else
+  echo "❌ Errore nell'avvio di Dbus"
 fi
 
 # aggiunge l’utente www-data al gruppo lp per permessi di cancellazione stampa
