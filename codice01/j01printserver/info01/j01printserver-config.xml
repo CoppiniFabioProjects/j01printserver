@@ -43,16 +43,16 @@ serverVersion: 1 = versione classica di PrintServer
 
 <j01printserver-config>
   <system>
-    <host>10.7.3.214</host>
-    <username>j01smb_d</username>
-    <password>qwertyuiop</password>
+    <host>host ip</host>
+    <username>user</username>
+    <password>pass</password>
   </system>
   <datasource>
-    <set-property property="user" value="j01smb_d"/>
-    <set-property property="password" value="qwertyuiop"/>
-    <set-property property="serverName" value="10.7.3.214"/>
-    <set-property property="libraries" value="J01SDB_D J01SMB_D"/>
-    <set-property property="description" value="it.info01 Connessione del server delle stampe"/>
+    <set-property property="user" value="user"/>
+    <set-property property="password" value="pass"/>
+    <set-property property="serverName" value="ipaddress"/>
+    <set-property property="libraries" value="libraries libraries"/>
+    <set-property property="description" value="description"/>
     <set-property property="naming" value="system"/>
   </datasource>
 
