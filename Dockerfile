@@ -8,6 +8,7 @@ ENV TZ=Europe/Rome
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # Aggiorna pacchetti e installa tutto in un solo layer
+# Ho aggiunto 'dos2unix' qui per averlo subito disponibile
 RUN apt-get update && \
     apt-get install -y \
         cups cups-bsd \
@@ -17,27 +18,38 @@ RUN apt-get update && \
         zip \
         openjdk-17-jdk \
         nmap snmp \
-        docker.io && \
+        docker.io \
+        dos2unix && \
     # Rimuove cups-browsed se presente e pulisce pacchetti non necessari
     apt-get purge -y cups-browsed && apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/*
 
-# Copia driver IBM i Access ODBC
+# --- INSTALLAZIONE DRIVER IBM DINAMICA ---
+# Copia l'intera cartella driver per avere a disposizione tutte le architetture
 COPY drivers /tmp/drivers
 
-# Script per installazione dinamica driver ODBC
+# Script per installazione dinamica driver ODBC in base all'architettura
 RUN bash -c '\
     ARCH=$(dpkg --print-architecture); \
     echo "Rilevata architettura: $ARCH"; \
     if [ "$ARCH" = "amd64" ]; then \
-        DRIVER="/tmp/drivers/x86_64/ibm-iaccess-*.deb"; \
+        # Cerca il driver nella cartella x86_64
+        DRIVER=$(ls /tmp/drivers/x86_64/ibm-iaccess-*.deb 2>/dev/null | head -n 1); \
     elif [ "$ARCH" = "ppc64le" ] || [ "$ARCH" = "ppc64el" ]; then \
-        DRIVER="/tmp/drivers/ppc64le/ibm-iaccess-*.deb"; \
+        # Cerca il driver nella cartella ppc64le
+        DRIVER=$(ls /tmp/drivers/ppc64le/ibm-iaccess-*.deb 2>/dev/null | head -n 1); \
     else \
         echo "Architettura non supportata: $ARCH" && exit 1; \
     fi; \
+    \
+    if [ -z "$DRIVER" ]; then \
+        echo "ERRORE: Nessun driver trovato per architettura $ARCH in /tmp/drivers" && exit 1; \
+    fi; \
+    \
+    echo "Installazione driver: $DRIVER"; \
+    # Tenta installazione con dpkg, se mancano dipendenze ripara con apt-get -f
     dpkg -i $DRIVER || apt-get install -f -y; \
-    rm -f $DRIVER'
+    rm -rf /tmp/drivers'
 
 # Copia configurazioni ODBC
 COPY odbc.ini /etc/odbc.ini
@@ -59,19 +71,18 @@ RUN ln -s /etc/nginx/sites-available/ssl /etc/nginx/sites-enabled/ssl
 COPY ./start.sh /start.sh
 RUN chmod +x /start.sh
 
-COPY ./start.sh /start.sh
-RUN chmod +x /start.sh
-
 # Copia tutti i file nella cartella /codice01/j01printserver
 COPY . /codice01/j01printserver
 
-# Installa dos2unix e converti i file
-RUN apt-get update && apt-get install -y dos2unix && rm -rf /var/lib/apt/lists/* && \
-    dos2unix /codice01/j01printserver/start.sh && \
+# Conversione dei file line-endings (importante se modifichi file da Windows)
+RUN dos2unix /start.sh && \
     dos2unix /codice01/j01printserver/install_printserver.sh && \
     dos2unix /codice01/j01printserver/uninstall_printserver.sh && \
-    dos2unix /codice01/j01printserver/utility/linux-brprinter-installer-2.2.4-1 && \
-    chmod +x /codice01/j01printserver/utility/linux-brprinter-installer-2.2.4-1
+    # Gestione sicura nel caso il file installer non esista
+    if [ -f /codice01/j01printserver/utility/linux-brprinter-installer-2.2.4-1 ]; then \
+        dos2unix /codice01/j01printserver/utility/linux-brprinter-installer-2.2.4-1 && \
+        chmod +x /codice01/j01printserver/utility/linux-brprinter-installer-2.2.4-1; \
+    fi
 
 # Utente di gestione CUPS
 RUN adduser prt && usermod -aG lpadmin prt
@@ -83,7 +94,7 @@ RUN mkdir -p /etc/nginx/ssl && \
     -out /etc/nginx/ssl/nginx-selfsigned.crt \
     -subj "/C=IT/ST=Italy/L=*/O=01 Informatica srl/CN=info01.it"
 
-# Permessi a www-data per leggere file .pdd
+# Permessi a www-data per leggere file .pdd e stampare
 RUN usermod -aG lp www-data
 
 # Esponi le porte
