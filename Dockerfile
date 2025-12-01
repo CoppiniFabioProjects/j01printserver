@@ -4,35 +4,28 @@ LABEL maintainer="j01PrintServer by 01Informatica S.R.L. - 2025"
 
 ENV TZ=Europe/Rome
 
+# Imposta fuso orario
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-# Aggiorna la lista pacchetti
-RUN apt-get update
+# Aggiorna pacchetti e installa tutto in un solo layer
+RUN apt-get update && \
+    apt-get install -y \
+        cups cups-bsd \
+        nginx \
+        php-fpm php-cli php-xml php-odbc \
+        unixodbc unixodbc-dev \
+        zip \
+        openjdk-17-jdk \
+        nmap snmp \
+        docker.io && \
+    # Rimuove cups-browsed se presente e pulisce pacchetti non necessari
+    apt-get purge -y cups-browsed && apt-get autoremove -y && \
+    rm -rf /var/lib/apt/lists/*
 
-# Installazione pacchetti necessari
-RUN apt-get install -y cups
-RUN apt-get install -y cups-bsd
-RUN apt-get install -y nginx
-RUN apt-get install -y php-fpm
-RUN apt-get install -y php-cli
-RUN apt-get install -y php-xml
-RUN apt-get install -y php-odbc
-RUN apt-get install -y unixodbc 
-RUN apt-get install -y unixodbc-dev
-RUN apt-get install -y zip
-RUN apt-get install -y openjdk-17-jdk
-RUN apt-get install -y nmap
-RUN apt-get install -y snmp
-# AGGIUNTO: Esegui un 'update' dedicato prima di un'installazione
-# complessa per evitare errori 404 dovuti a cache stantìe.
-RUN apt-get update
-RUN apt-get install -y docker.io 
+# Copia driver IBM i Access ODBC
+COPY drivers /tmp/drivers
 
-# Copia tutti i driver IBM i Access ODBC in /tmp/drivers
-COPY drivers /tmp/drivers	
-
-# Script per installazione dinamica del driver ODBC
-#script shell che rileva l’architettura con dpkg --print-architecture
+# Script per installazione dinamica driver ODBC
 RUN bash -c '\
     ARCH=$(dpkg --print-architecture); \
     echo "Rilevata architettura: $ARCH"; \
@@ -45,43 +38,56 @@ RUN bash -c '\
     fi; \
     dpkg -i $DRIVER || apt-get install -f -y; \
     rm -f $DRIVER'
-	
-# Copia i file di configurazione ODBC (opzionale: altrimenti monta come volume)
+
+# Copia configurazioni ODBC
 COPY odbc.ini /etc/odbc.ini
-COPY odbcinst.ini /etc/odbcinst.ini	
+COPY odbcinst.ini /etc/odbcinst.ini
+
+# Copia configurazioni SSL e CUPS
 COPY ssl /etc/nginx/sites-available/ssl
-COPY cupsd.conf /etc/cups/cupsd.conf										   
-				 
-# Abilita modulo ODBC per PHP (ci sara da riavviare il servizio PHP-FPM)
+COPY cupsd.conf /etc/cups/cupsd.conf
+
+# Abilita modulo ODBC per PHP
 RUN phpenmod odbc
 
-# Copia configurazioni personalizzate per Nginx
+# Configurazioni personalizzate Nginx
 COPY ./nginx/default /etc/nginx/sites-available/default
 RUN ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+RUN ln -s /etc/nginx/sites-available/ssl /etc/nginx/sites-enabled/ssl
 
 # Copia script di avvio
 COPY ./start.sh /start.sh
 RUN chmod +x /start.sh
 
-# Abilita permessi per Docker						   
-# RUN usermod -aG docker www-data && chmod 666 /var/run/docker.sock serve solo per fare comandi docker
+COPY ./start.sh /start.sh
+RUN chmod +x /start.sh
 
-# Utente prt di gestione nel DOCKERFILE per poter accedere all’interfaccia cups di amministrazione
-RUN adduser prt \
-    && usermod -aG lpadmin prt 
+# Copia tutti i file nella cartella /codice01/j01printserver
+COPY . /codice01/j01printserver
 
-# Cartella per generare il certificato
+# Installa dos2unix e converti i file
+RUN apt-get update && apt-get install -y dos2unix && rm -rf /var/lib/apt/lists/* && \
+    dos2unix /codice01/j01printserver/start.sh && \
+    dos2unix /codice01/j01printserver/install_printserver.sh && \
+    dos2unix /codice01/j01printserver/uninstall_printserver.sh && \
+    dos2unix /codice01/j01printserver/utility/linux-brprinter-installer-2.2.4-1 && \
+    chmod +x /codice01/j01printserver/utility/linux-brprinter-installer-2.2.4-1
+
+# Utente di gestione CUPS
+RUN adduser prt && usermod -aG lpadmin prt
+
+# Cartella per certificati SSL e creazione certificato self-signed
 RUN mkdir -p /etc/nginx/ssl && \
     openssl req -x509 -nodes -days 9125 -newkey rsa:2048 \
     -keyout /etc/nginx/ssl/nginx-selfsigned.key \
     -out /etc/nginx/ssl/nginx-selfsigned.crt \
     -subj "/C=IT/ST=Italy/L=*/O=01 Informatica srl/CN=info01.it"
-	
+
+# Permessi a www-data per leggere file .pdd
+RUN usermod -aG lp www-data
+
+# Esponi le porte
 EXPOSE 80 443 631
 
-# Serve dare i permessi a www-data per leggere i file .pdd dalla cartella etc/cups/pdd/*.pdd
-RUN usermod -aG lp www-data 
-
-RUN ln -s /etc/nginx/sites-available/ssl /etc/nginx/sites-enabled/ssl
-
+# Avvio del container
 CMD ["/start.sh"]
